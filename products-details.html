@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Svi Proizvodi-TŠIshoop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--------poppins font-------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"">
+    <!--------poveznica za znakove-------->
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="slike/logo1.png" width="80px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="products.html">PROIZVODI</a></li>
+                    <li><a href="account.html">PROFIL</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="slike/cart.png" width="30px" height="30px"></a>
+            <img src="slike/menu.png" class="menu-icon" 
+            onclick="menutoggle()">
+        </div>
+    </div>
+
+<!--------single product details-------->
+
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="slike/intel4.jpg" width="100%" id="productImg">
+
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="slike/intel2.jpg" width="100%" class="smallImg">
+                </div>
+                <div class="small-img-col">
+                    <img src="slike/intel3.jpg" width="100%" class="smallImg">
+                </div>
+                <div class="small-img-col">
+                    <img src="slike/intel1.jpg" width="100%" class="smallImg">
+                </div>
+                <div class="small-img-col">
+                    <img src="slike/intel4.jpg" width="100%" class="smallImg">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-2">
+            <p>Home / Intel</p>
+            <h1>Procesor Intel i7</h1>
+            <ht>$600.00</ht>
+            <select>
+                <option>Odaberi Model</option>
+                <option>13700K </option>
+                <option>10700F</option>
+                <option>9700</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" class="btn">Dodaj u Košaru</a>
+            <h3>Više o Proizvodu <i class="fa fa-indent"></i></h3>
+            <br>
+            <p>Ovi procesori pokreću vrhunska računala s izvrsnim CPU performansama za diskretnu razinu grafike i AI ubrzanje. </p>
+        </div>
+    </div>
+</div>
+
+<!-------title---->
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Proizvodi</h2>
+        <p>Pogledaj Više</p>
+    </div>
+</div>
+
+<!--------products-->
+    <div class="small-container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="slike/62.jpg">
+                    <h4>Računalo Gamer Prime</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$900.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="slike/63.jpg">
+                    <h4>Pametni sat Apple Watch SE (2022)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$500.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="slike/64.jpg">
+                    <h4>Mobitel Apple iPhone 14, 128GB, Starlight</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$1300.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="slike/65.jpg">
+                    <h4>Tablet Apple iPad Pro (2021) Cellular, 128GB Memorija</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$1200.00</p>
+                </div>
+            </div>
+
+            
+         </div>
+        </div>    
+
+
+
+
+<!--------footer-------->
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Preuzmi Svoju Aplikaciju</h3>
+                        <p>Preuzmi aplikaciju za Android & Ios</p>
+                        <div class="app-logo">
+                            <img src="slike/play-store.png">
+                            <img src="slike/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="slike/logo-white.png">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Korisni linkovi</h3>
+                        <ul>
+                            <li>Cupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliat</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Zaprati Nas</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2023</p>
+            </div>
+        </div>
+
+<!--------js za toggle menu-------->    
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+
+
+<!-----js for product gallery-->
+
+<script>
+   var productImg = document.getElementById("productImg");
+   var smallImg = document.getElementsByClassName("smallImg")
+
+   smallImg[0].onclick = function()
+    {
+        productImg.src = smallImg[0].src;
+    }
+    smallImg[1].onclick = function()
+    {
+        productImg.src = smallImg[1].src;
+    }
+    smallImg[2].onclick = function()
+    {
+        productImg.src = smallImg[2].src;
+    }
+    smallImg[3].onclick = function()
+    {
+        productImg.src = smallImg[3].src;
+    } 
+
+</script>
+
+
+
+
+
+</body>
+</html>
